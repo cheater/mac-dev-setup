@@ -1,0 +1,8 @@
+.netrwhist
+.vimundo
+plugged
+undodir
+backup
+*.swp
+*.swo
+.DS_Store
