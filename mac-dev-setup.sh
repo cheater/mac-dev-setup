@@ -201,6 +201,9 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 # Disable the sound effects on boot
 sudo nvram SystemAudioVolume=" "
 
+# Dark mode
+defaults write NSGlobalDomain AppleInterfaceStyle Dark
+
 # Disable the over-the-top focus ring animation, see https://osxdaily.com/2016/08/17/disable-focus-ring-animation-mac-os/
 defaults write NSGlobalDomain NSUseAnimatedFocusRing -bool false
 
