@@ -103,7 +103,7 @@ if ! [ -d ~/Library/Application\ Support/Google/Chrome/Default ]; then
 if ! [ -d ~/Library/Application\ Support/Firefox/Profiles ]; then
   echo "Installing Firefox profile..."
   mkdir -p ~/Library/Application\ Support/Firefox
-  tar xf Library-Application_Support-Firefox-Profiles-with-addons.tar -C ~/Library/Application\ Support/Firefox
+  tar xf Library-Application_Support-Firefox-Profiles-with-addons.tar.xz -C ~/Library/Application\ Support/Firefox
   fi
 
 
